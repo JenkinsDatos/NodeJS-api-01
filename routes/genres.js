@@ -3,7 +3,6 @@ const mongoose = require('mongoose');
 const express = require('express');
 const router = express.Router();
 
-
 const courses = [
     {id: 1, name: 'course1' },
     {id: 2, name: 'course2' },
@@ -20,7 +19,7 @@ const Genre = mongoose.model('Genre', new mongoose.Schema({
 }));
 
 router.get('/', async (req, res) => {
-  const genres = await Genre.find().sort('name');
+  //const genres = await Genre.find().sort('name');
   res.send(courses);
 });
 
