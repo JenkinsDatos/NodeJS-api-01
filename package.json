@@ -1,6 +1,7 @@
 {
   "name": "vidly",
   "version": "1.0.0",
+  "private": true,
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -15,13 +16,13 @@
     "joi": "^13.6.0",
     "mongoose": "^5.0.1",
     "http-errors": "^1.7.0"
-  },  
+  },
   "devDependencies": {
     "inherits": "^2.0.3",
     "mocha": "^5.2.0",
     "ms": "^2.1.1"
   },
   "engines": {
-    "node": "^4.6.1"
-  }  
+    "node": "^8.12.0"
+  }
 }
