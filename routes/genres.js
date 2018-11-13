@@ -10,7 +10,8 @@ const courses = [
     {id: 4, name: 'course4' },
     {id: 5, name: 'course5' },
     {id: 6, name: 'course6' },
-    {id: 7, name: 'course7' }
+    {id: 7, name: 'course7' },
+    {id: 8, name: 'course8' }
 ]
 
 const Genre = mongoose.model('Genre', new mongoose.Schema({
